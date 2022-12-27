@@ -1,12 +1,4 @@
 {
-    "validations": {
-        "required": "The {attribute} field is required",
-        "minLength": "The {attribute} minimun length is {min}",
-        "maxLength": "The {attribute} maximum length is {max}",
-        "numeric": "The {attribute} field is must be numeric",
-        "sameAsOld": "The {attribute} cannot be same as the old",
-        "sameValue": "The value not same with {attribute}"
-    },
     "component": {
         "close": "Close",
         "cancel": "Cancel",
@@ -17,49 +9,10 @@
         "errorPin": "PIN not valid",
         "errorUser": "Account not match"
     },
-    "financePage": {
-        "month": "Month",
-        "year": "Year",
-        "fund": "Fund",
-        "income": "Income",
-        "outcome": "Outcome",
-        "listTransaction": "List Transaction",
-        "createTransaction": "Create Transaction",
-        "detail": "DETAIL",
-        "amount": "AMOUNT",
-        "delete": {
-            "title": "Delete Transaction ?",
-            "description": "Are your sure want to delete this transaction ?",
-            "message": "Transaction deleted"
-        },
-        "createEdit": {
-            "createTransaction": "Create Transaction",
-            "editTransaction": "Edit Transaction",
-            "total": "Total",
-            "category": "Category",
-            "datePicker": {
-                "title": "Date Transaction",
-                "cancel": "Cancel",
-                "save": "Save"
-            },
-            "note": "Note (Cptional)",
-            "placeholderNote": "Ex: 'Buy Pen & pencil",
-            "messageCreate": "Transaction created",
-            "messageUpdate": "Transaction updated",
-            "submit": "Submit"
-        }
-    },
     "settingPage": {
         "setting": "Setting",
         "category": "Category",
-        "income": "Income",
-        "outcome": "Outcome",
-        "categoryHint": "use coma (,) for separate",
         "language": "Language",
-        "changePin": "Change PIN",
-        "oldPin": "Old PIN",
-        "newPin": "New PIN",
-        "confirmPin": "Confirm Pin",
         "save": "Save",
         "back": "Back",
         "updateSettingMessage": "Setting updated",
