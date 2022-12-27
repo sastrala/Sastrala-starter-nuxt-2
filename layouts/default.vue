@@ -2,8 +2,9 @@
   <v-app>
     <v-main class="main-base">
       <v-container>
-        <BaseNavbar class="mb-5" />
+        <ElementNavbar class="mb-5" />
         <Nuxt keep-alive />
+        <ElementFooter />
       </v-container>
     </v-main>
     <BaseSnackbar />
