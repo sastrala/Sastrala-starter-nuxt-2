@@ -93,14 +93,12 @@ export default {
       let subtitle = null
 
       if (this.$route.name === 'index') {
-        title = 'Sastrala Finance'
+        title = 'Sastrala Template'
         subtitle = this.$store.state.auth?.user
           ? `Hallo ${this.$store.state.auth.user.name}`
           : null
       } else if (this.$route.name === 'setting') {
         title = this.$t('settingPage.setting')
-      } else if (this.$route.name === 'create') {
-        title = this.$t('financePage.createEdit.createTransaction')
       } else if (this.$route.name === 'id') {
         title = this.$t('financePage.createEdit.editTransaction')
       } else if (this.$route.name === 'about') {
