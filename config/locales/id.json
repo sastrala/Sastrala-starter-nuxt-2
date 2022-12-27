@@ -1,0 +1,73 @@
+{
+    "validations": {
+        "required": "Kolom {attribute} wajib diisi",
+        "minLength": "Panjang minimum {attribute} adalah {minimum}",
+        "maxLength": "Panjang maksimum {attribute} adalah {max}",
+        "numeric": "Kolom {attribute} harus berupa angka",
+        "sameAsOld": "Kolom {attribute} tidak boleh sama dengan yang lama",
+        "sameValue": "Kolom tidak sama dengan yang {attribute}"
+    },
+    "component": {
+        "close": "Tutup",
+        "cancel": "Batal",
+        "delete": "Hapus"
+    },
+    "verification": {
+        "insertPin": "Masukan PIN Anda",
+        "errorPin": "PIN yang kamu masukan salah",
+        "errorUser": "Akun tidak sesuai"
+    },
+    "financePage": {
+        "month": "Bulan",
+        "year": "Tahun",
+        "fund": "Uang Kas",
+        "income": "Pendapatan",
+        "outcome": "Pengeluaran",
+        "listTransaction": "List Transaksi",
+        "createTransaction": "Buat Transaksi",
+        "detail": "DETAIL",
+        "amount": "JUMLAH",
+        "delete": {
+            "title": "Hapus Transaksi ?",
+            "description": "Kamu yakin ingin menghapus Transaksi ini ?",
+            "message": "Data Transaksi berhasil di hapus"
+        },
+        "createEdit": {
+            "createTransaction": "Buat Transaksi",
+            "editTransaction": "Edit Transaksi",
+            "total": "Jumlah",
+            "category": "Kategori",
+            "datePicker": {
+                "title": "Tanggal Transaksi",
+                "cancel": "Batal",
+                "save": "Simpan"
+            },
+            "note": "Catatan (Opsional)",
+            "placeholderNote": "Contoh 'Beli Pulpen & Penggaris",
+            "messageCreate": "Data Transaksi berhasil di buat",
+            "messageUpdate": "Data Transaksi berhasil di edit",
+            "submit": "Simpan"
+        }
+    },
+    "settingPage": {
+        "setting": "Pengaturan",
+        "category": "Kategori",
+        "income": "Pemasukan",
+        "outcome": "Pengeluaran",
+        "categoryHint": "gunakan koma (,) untuk memisahkan",
+        "language": "Bahasa",
+        "changePin": "Ganti PIN",
+        "oldPin": "PIN Lama",
+        "newPin": "PIN Baru",
+        "confirmPin": "Konfirmasi PIN",
+        "save": "Simpan",
+        "back": "Kembali",
+        "updateSettingMessage": "Setting berhasil di update",
+        "theme": "Tema",
+        "welcome": "Hallo, Selamat Datang",
+        "googleConnect": "Akun Google Terhubung"
+    },
+    "aboutPage": "Tentang",
+    "login": "Masuk",
+    "logout": "Keluar"
+}
