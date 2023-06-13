@@ -5,8 +5,8 @@ export default {
       codeChallengeMethod: '',
       scope: 'openid profile email',
       clientId:
-        '694542181812-6rjf436tb9senvtdecovbjahv3lkdun4.apps.googleusercontent.com',
-      clientSecret: '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',
+        'some_google_clientId',
+      clientSecret: 'some_google_clientSecret',
     },
   },
   redirect: {
