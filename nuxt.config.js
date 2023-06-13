@@ -102,7 +102,7 @@ export default {
   build: {
     // analyze: true,
     plugins: [new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)],
-    publicPath: '/_sastrala-finance/',
+    publicPath: '/_sastrala-starter/',
     transpile: process.env.NODE_ENV === 'production' ? ['vuetify'] : [],
     extractCSS: process.env.NODE_ENV === 'production',
     optimization:
